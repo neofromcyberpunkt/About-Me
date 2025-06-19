@@ -1,0 +1,43 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #222;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  #about p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+    white-space: pre-line; /* newline ni ko'rsatadi */
+  }
+  
